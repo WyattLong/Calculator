@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="235.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
+    <children>
+        <Button layoutX="15.0" layoutY="123.0" mnemonicParsing="false" onAction="#clearAction" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 40px; -fx-background-color: lightgrey;" text="C" />
+        <Button layoutX="118.0" layoutY="122.0" mnemonicParsing="false" onAction="#modulusAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: lightgrey;" text="\%" />
+        <Button layoutX="170.0" layoutY="122.0" mnemonicParsing="false" onAction="#divideAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: orange;" text="/" />
+        <Button layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#btnSeven" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="7" />
+        <Button layoutX="66.0" layoutY="174.0" mnemonicParsing="false" onAction="#btnEight" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="8" />
+        <Button layoutX="118.0" layoutY="174.0" mnemonicParsing="false" onAction="#btnNine" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="9" />
+        <Button layoutX="170.0" layoutY="174.0" mnemonicParsing="false" onAction="#multiplyAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: orange;" text="X" />
+        <Button layoutX="14.0" layoutY="226.0" mnemonicParsing="false" onAction="#btnFour" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="4" />
+        <Button layoutX="66.0" layoutY="226.0" mnemonicParsing="false" onAction="#btnFive" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="5" />
+        <Button layoutX="118.0" layoutY="226.0" mnemonicParsing="false" onAction="#btnSix" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="6" />
+        <Button layoutX="170.0" layoutY="226.0" mnemonicParsing="false" onAction="#subtractAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: orange;" text="-" />
+        <Button layoutX="15.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnZero" prefHeight="50.0" prefWidth="150.0" style="-fx-background-radius: 30px; -fx-background-color: grey;" text="0" />
+        <Button layoutX="170.0" layoutY="330.0" mnemonicParsing="false" onAction="#equalsAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: orange;" text="=" />
+        <Label fx:id="lblCalculation" layoutX="14.0" layoutY="66.0" prefHeight="17.0" prefWidth="208.0" />
+        <Label fx:id="lblOutput" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="72.0" prefHeight="50.0" prefWidth="208.0" text="0" textFill="WHITE">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="15.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnOne" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="1" />
+        <Button layoutX="66.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnTwo" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="2" />
+        <Button layoutX="118.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnThree" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: grey;" text="3" />
+        <Button layoutX="170.0" layoutY="278.0" mnemonicParsing="false" onAction="#sumAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50%; -fx-background-color: orange;" text="+" />
+    </children>
+</Pane>
